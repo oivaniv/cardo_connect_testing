@@ -1,0 +1,7 @@
+SingleFunctionTests\CheckDeviceRidersTC.class
+TestClass.class
+SingleFunctionTests\CheckBatteruLevelTC.class
+SingleFunctionTests\CheckDeviceNameTC.class
+utils\ttt.class
+FirstTestCase.class
+utils\Listeners\TestListener.class

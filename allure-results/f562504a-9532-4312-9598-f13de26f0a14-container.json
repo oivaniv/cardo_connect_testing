@@ -1,0 +1,1 @@
+{"uuid":"f562504a-9532-4312-9598-f13de26f0a14","name":"cardo_connect_testing","children":["f1df9668-20fd-414d-b491-2f078b7dfc7e"],"befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1553036785280,"stop":1553036788605}],"links":[],"start":1553036766823,"stop":1553036788605}
