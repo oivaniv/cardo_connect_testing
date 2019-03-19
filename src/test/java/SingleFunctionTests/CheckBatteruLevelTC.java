@@ -1,25 +1,20 @@
 package SingleFunctionTests;
 
-import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import org.w3c.dom.Text;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class ShowstopperTestCase {
-
+public class CheckBatteruLevelTC {
     public AndroidDriver<MobileElement> driver;
     public WebDriverWait wait;
 
@@ -76,42 +71,9 @@ public class ShowstopperTestCase {
         System.out.println("Passed test: " + passedCount + "\nFailed tests: " + failedCount);
     }
 
-//    @Test
-//    public void ConnectionTest() throws InterruptedException {
-//
-//        System.out.println("Connected");
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//        System.out.println("Added timeout");
-//
-//        //Find element and get value
-//        AndroidElement element = (AndroidElement) driver.findElement(By.id("com.cardo.smartset:id/device_name_connected"));
-//        String deviceName = element.getAttribute("text");
-//
-//        //Check is value is set
-//        System.out.println(deviceName);
-//
-//        driver.closeApp();
-//        System.out.println("App is closed");
-//
-//    }
-
-//        if (deviceName == "PACKTALK  SLIM"){
-//            System.out.println("Test is passed");
-//        } else {
-//            System.out.println("Test is failed");
-//        }
-
-//        if (deviceNameText == "PACKTALK SLIM") {
-//            System.out.println("we Have device name");
-//        }
-
-    //Click on Quick Access button
-    //wait.until(ExpectedConditions.visibilityOfElementLocated
-    //(By.id("com.cardo.smartset:id/riding_mode_btn"))).click();
-
-
     @AfterTest
     public void teardown() {
         driver.quit();
     }
 }
+
