@@ -61,7 +61,7 @@ public class CheckDeviceRidersTC {
             count++;
             System.out.println("Total count is: " + count);
 
-        } while (count < 100);
+        } while (count < 1000);
         System.out.println("Passed test: " + passedCount + "\nFailed tests: " + failedCount);
 
         driver.closeApp();

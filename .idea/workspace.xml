@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c2d3f5-7e6e-4a34-a591-061f924947c2" name="Default Changelist" comment="Added TC for battery level verification">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceRidersTC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceRidersTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceRidersTC.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FirstTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="-143">
               <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceRidersTC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="-357">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="84" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
+            <state relative-caret-position="282">
+              <caret line="69" column="41" lean-forward="true" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,7 +108,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -162,7 +162,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553010551285" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553011327644" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
@@ -177,18 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestClass">
-    <configuration name="CheckDeviceNameTC" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ioappium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SingleFunctionTests.CheckDeviceNameTC" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.CheckDeviceRidersTC">
     <configuration name="CheckDeviceNameTC.ConnectionIssueTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ioappium" />
       <option name="PACKAGE_NAME" value="" />
@@ -207,6 +196,23 @@
       <option name="MAIN_CLASS_NAME" value="SingleFunctionTests.CheckDeviceNameTC" />
       <option name="METHOD_NAME" value="ConnectionTest" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckDeviceRidersTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ioappium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingleFunctionTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SingleFunctionTests" />
+      <option name="MAIN_CLASS_NAME" value="SingleFunctionTests.CheckDeviceRidersTC" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -238,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CheckDeviceRidersTC" />
         <item itemvalue="TestNG.TestClass" />
         <item itemvalue="TestNG.TestClass.checkBatteryLife" />
         <item itemvalue="TestNG.CheckDeviceNameTC.ConnectionIssueTest" />
         <item itemvalue="TestNG.CheckDeviceNameTC.ConnectionTest" />
-        <item itemvalue="TestNG.CheckDeviceNameTC" />
       </list>
     </recent_temporary>
   </component>
@@ -268,12 +274,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShowstopperTestCase_ConnectionIssueTest - 2019.03.19 at 15h 46m 01s.xml">
-      <configuration name="ShowstopperTestCase.ConnectionIssueTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ShowstopperTestCase_ConnectionIssueTest - 2019.03.19 at 15h 55m 59s.xml">
-      <configuration name="ShowstopperTestCase.ConnectionIssueTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ShowstopperTestCase_ConnectionIssueTest - 2019.03.19 at 16h 16m 40s.xml">
       <configuration name="ShowstopperTestCase.ConnectionIssueTest" configurationId="TestNG" />
     </history-entry>
@@ -298,6 +298,12 @@
     <history-entry file="TestClass - 2019.03.19 at 17h 37m 10s.xml">
       <configuration name="TestClass" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestClass - 2019.03.19 at 17h 51m 50s.xml">
+      <configuration name="TestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckDeviceRidersTC - 2019.03.19 at 18h 30m 38s.xml">
+      <configuration name="CheckDeviceRidersTC" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -309,10 +315,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -321,7 +326,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3109426" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3109426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,20 +436,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTestCase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        <state relative-caret-position="282">
+          <caret line="69" column="41" lean-forward="true" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
+        <state relative-caret-position="-143">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -453,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceRidersTC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="-357">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
