@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02c2d3f5-7e6e-4a34-a591-061f924947c2" name="Default Changelist" comment="Added TC for battery level verification">
-      <change afterPath="$PROJECT_DIR$/src/test/java/samples/SecondTestFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/samples/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/samples/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Suite1/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/test1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Suite1/test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/test1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Suite1/test2.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/test2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Suite1/test2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/test2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Suite1/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-samples.SampleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-samples.SampleTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/groups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/test2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/test2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-    </list>
+    <list default="true" id="02c2d3f5-7e6e-4a34-a591-061f924947c2" name="Default Changelist" comment="Added TC for battery level verification" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,11 +30,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/samples/SampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="136">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -248,7 +226,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553092287429" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553093843705" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../testng-maven/src/test/resources/testng.xml" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -456,7 +434,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -467,7 +444,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3109426" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3109426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -612,6 +589,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/samples/SecondTestFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -632,15 +616,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/samples/SampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="136">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
