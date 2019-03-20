@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="30986" started-at="2019-03-20T13:20:43Z" finished-at="2019-03-20T13:21:14Z">
+    <groups>
+    </groups>
+    <test name="Smoke Test" duration-ms="30986" started-at="2019-03-20T13:20:43Z" finished-at="2019-03-20T13:21:14Z">
+      <class name="unitTest.FirstTestCase">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:unitTest.FirstTestCase@7cc586a8]" name="BeforeTest" is-config="true" duration-ms="18252" started-at="2019-03-20T13:20:43Z" finished-at="2019-03-20T13:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:unitTest.FirstTestCase@7cc586a8]" name="firstTest" duration-ms="11183" started-at="2019-03-20T13:21:02Z" description="Start and Stop FM Radio from FM page" finished-at="2019-03-20T13:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:unitTest.FirstTestCase@7cc586a8]" name="AfterTest" is-config="true" duration-ms="1266" started-at="2019-03-20T13:21:13Z" finished-at="2019-03-20T13:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- unitTest.FirstTestCase -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>

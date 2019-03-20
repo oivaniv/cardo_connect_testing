@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Suite1]" parallel="tests">
+  <test thread-count="4" verbose="2" name="Smoke Test(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="unitTest.FirstTestCase">
+        <methods>
+          <include name="firstTest"/>
+        </methods>
+      </class> <!-- unitTest.FirstTestCase -->
+    </classes>
+  </test> <!-- Smoke Test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
