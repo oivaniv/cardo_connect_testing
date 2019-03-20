@@ -1,0 +1,146 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite1",
+    "children" : [ {
+      "name" : "Smoke Test",
+      "children" : [ {
+        "name" : "unitTest.FirstTestCase",
+        "children" : [ {
+          "name" : "Start and Stop FM Radio from FM page",
+          "uid" : "9936b71acc37a2db",
+          "parentUid" : "33e29cb4e483d8e58072718ef3bfd02e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1553088062128,
+            "stop" : 1553088073253,
+            "duration" : 11125
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "33e29cb4e483d8e58072718ef3bfd02e"
+      } ],
+      "uid" : "5df174a1385e3508205481829c51073c"
+    }, {
+      "name" : "test1",
+      "children" : [ {
+        "name" : "samples.SampleTest",
+        "children" : [ {
+          "name" : "firstTest",
+          "uid" : "fdfc625d4a07d06c",
+          "parentUid" : "35c5ed4a26b0b76e266371a46802864b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1553092403160,
+            "stop" : 1553092403176,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "secondTest",
+          "uid" : "dbef2c2922707e9b",
+          "parentUid" : "35c5ed4a26b0b76e266371a46802864b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1553092403360,
+            "stop" : 1553092403390,
+            "duration" : 30
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "thirdTest",
+          "uid" : "e43bb09981164487",
+          "parentUid" : "35c5ed4a26b0b76e266371a46802864b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1553092403402,
+            "stop" : 1553092403404,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "35c5ed4a26b0b76e266371a46802864b"
+      }, {
+        "name" : "samples.SecondTestFile",
+        "children" : [ {
+          "name" : "example1",
+          "uid" : "fe6529f654784281",
+          "parentUid" : "bad69b40848512e23ec7fd7936e4e656",
+          "status" : "failed",
+          "time" : {
+            "start" : 1553092403416,
+            "stop" : 1553092403422,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "example2",
+          "uid" : "1812cb4f3517a891",
+          "parentUid" : "bad69b40848512e23ec7fd7936e4e656",
+          "status" : "passed",
+          "time" : {
+            "start" : 1553092403432,
+            "stop" : 1553092403433,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "example3",
+          "uid" : "649efe843eb0eac",
+          "parentUid" : "bad69b40848512e23ec7fd7936e4e656",
+          "status" : "passed",
+          "time" : {
+            "start" : 1553092403443,
+            "stop" : 1553092403445,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "example4",
+          "uid" : "2d9f82604b26b3c9",
+          "parentUid" : "bad69b40848512e23ec7fd7936e4e656",
+          "status" : "failed",
+          "time" : {
+            "start" : 1553092403456,
+            "stop" : 1553092403457,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "skippedByDependencyTest",
+          "uid" : "d5813ac8e6d6391",
+          "parentUid" : "bad69b40848512e23ec7fd7936e4e656",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1553092403465,
+            "stop" : 1553092403465,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bad69b40848512e23ec7fd7936e4e656"
+      } ],
+      "uid" : "6d190c1189a113479b5b0d5a3806c8fc"
+    } ],
+    "uid" : "1b55da8b4eccbbb6df84e16f476662eb"
+  } ]
+}

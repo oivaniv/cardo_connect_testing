@@ -1,0 +1,91 @@
+[ {
+  "uid" : "2d9f82604b26b3c9",
+  "name" : "example4",
+  "time" : {
+    "start" : 1553092403456,
+    "stop" : 1553092403457,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5813ac8e6d6391",
+  "name" : "skippedByDependencyTest",
+  "time" : {
+    "start" : 1553092403465,
+    "stop" : 1553092403465,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1812cb4f3517a891",
+  "name" : "example2",
+  "time" : {
+    "start" : 1553092403432,
+    "stop" : 1553092403433,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "649efe843eb0eac",
+  "name" : "example3",
+  "time" : {
+    "start" : 1553092403443,
+    "stop" : 1553092403445,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdfc625d4a07d06c",
+  "name" : "firstTest",
+  "time" : {
+    "start" : 1553092403160,
+    "stop" : 1553092403176,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbef2c2922707e9b",
+  "name" : "secondTest",
+  "time" : {
+    "start" : 1553092403360,
+    "stop" : 1553092403390,
+    "duration" : 30
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e43bb09981164487",
+  "name" : "thirdTest",
+  "time" : {
+    "start" : 1553092403402,
+    "stop" : 1553092403404,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9936b71acc37a2db",
+  "name" : "Start and Stop FM Radio from FM page",
+  "time" : {
+    "start" : 1553088062128,
+    "stop" : 1553088073253,
+    "duration" : 11125
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fe6529f654784281",
+  "name" : "example1",
+  "time" : {
+    "start" : 1553092403416,
+    "stop" : 1553092403422,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

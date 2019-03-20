@@ -1,0 +1,60 @@
+{
+  "uid" : "c6f58f0414e1d634",
+  "name" : "firstTest",
+  "fullName" : "samples.SampleTest.firstTest",
+  "historyId" : "ec2968cfb67671b4bc99952918e7875",
+  "time" : {
+    "start" : 1553091573510,
+    "stop" : 1553091573528,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "samples.SampleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "samples.SampleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "firstTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite1"
+  }, {
+    "name" : "suite",
+    "value" : "test1"
+  }, {
+    "name" : "subSuite",
+    "value" : "samples.SampleTest"
+  }, {
+    "name" : "host",
+    "value" : "WS00CS001"
+  }, {
+    "name" : "thread",
+    "value" : "73760@WS00CS001.TestNG-tests-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6f58f0414e1d634.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [1] but found [2]",
+      "children" : [ {
+        "name" : "secondTest",
+        "uid" : "dbef2c2922707e9b",
+        "parentUid" : "a7fb50048f215231d95300260487617b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1553092403360,
+          "stop" : 1553092403390,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7fb50048f215231d95300260487617b"
+    }, {
+      "name" : "This test should be failed expected [3] but found [2]",
+      "children" : [ {
+        "name" : "example1",
+        "uid" : "fe6529f654784281",
+        "parentUid" : "b16b6b396df344cbd0845cd8ab89f6b6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1553092403416,
+          "stop" : 1553092403422,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b16b6b396df344cbd0845cd8ab89f6b6"
+    }, {
+      "name" : "This test should be failed",
+      "children" : [ {
+        "name" : "example4",
+        "uid" : "2d9f82604b26b3c9",
+        "parentUid" : "6d0c06c5e056172e64fa7eef8658e326",
+        "status" : "failed",
+        "time" : {
+          "start" : 1553092403456,
+          "stop" : 1553092403457,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d0c06c5e056172e64fa7eef8658e326"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,177 @@
+{
+  "uid" : "16c432ffa11891f6",
+  "name" : "Start and Stop FM Radio from FM page",
+  "fullName" : "unitTest.FirstTestCase.firstTest",
+  "historyId" : "ff8fc02505327a59fdf823eee26ac095",
+  "time" : {
+    "start" : 1553087340825,
+    "stop" : 1553087351966,
+    "duration" : 11141
+  },
+  "description" : "Test Description: Verify FM page basic functionality.",
+  "descriptionHtml" : "<p>Test Description: Verify FM page basic functionality.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeTest",
+    "time" : {
+      "start" : 1553087323102,
+      "stop" : 1553087340751,
+      "duration" : 17649
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Verify FM page basic functionality.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open FM page",
+      "time" : {
+        "start" : 1553087340857,
+        "stop" : 1553087345395,
+        "duration" : 4538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Press Start FM Button",
+      "time" : {
+        "start" : 1553087345395,
+        "stop" : 1553087347049,
+        "duration" : 1654
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Press Stop FM Button",
+      "time" : {
+        "start" : 1553087347050,
+        "stop" : 1553087348030,
+        "duration" : 980
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Press X button",
+      "time" : {
+        "start" : 1553087348030,
+        "stop" : 1553087351963,
+        "duration" : 3933
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "AfterTest",
+    "time" : {
+      "start" : 1553087351979,
+      "stop" : 1553087353229,
+      "duration" : 1250
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "unitTest.FirstTestCase"
+  }, {
+    "name" : "testClass",
+    "value" : "unitTest.FirstTestCase"
+  }, {
+    "name" : "testMethod",
+    "value" : "firstTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite1"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "unitTest.FirstTestCase"
+  }, {
+    "name" : "host",
+    "value" : "WS00CS001"
+  }, {
+    "name" : "thread",
+    "value" : "74268@WS00CS001.TestNG-tests-1(13)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Basic functionality tests"
+  }, {
+    "name" : "epic",
+    "value" : "Smoke Tests"
+  }, {
+    "name" : "feature",
+    "value" : "FM Radio"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16c432ffa11891f6.json",
+  "parameterValues" : [ ]
+}

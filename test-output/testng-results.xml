@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="1" total="2" passed="0">
+<testng-results skipped="0" failed="1" ignored="1" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="125" started-at="2019-03-20T11:46:24Z" finished-at="2019-03-20T11:46:24Z">
+  <suite name="Suite1" duration-ms="290" started-at="2019-03-20T14:19:33Z" finished-at="2019-03-20T14:19:33Z">
     <groups>
-      <group name="smoke">
-        <method signature="FirstTestCase.firstTest()[pri:0, instance:unitTest.FirstTestCase@17c68925]" name="firstTest" class="unitTest.FirstTestCase"/>
-      </group> <!-- smoke -->
+      <group name="unit">
+        <method signature="SampleTest.firstTest()[pri:0, instance:samples.SampleTest@54d18072]" name="firstTest" class="samples.SampleTest"/>
+      </group> <!-- unit -->
+      <group name="web">
+        <method signature="SampleTest.secondTest()[pri:0, instance:samples.SampleTest@54d18072]" name="secondTest" class="samples.SampleTest"/>
+      </group> <!-- web -->
     </groups>
-    <test name="test2" duration-ms="3" started-at="2019-03-20T11:46:24Z" finished-at="2019-03-20T11:46:24Z">
+    <test name="test2" duration-ms="18" started-at="2019-03-20T14:19:33Z" finished-at="2019-03-20T14:19:33Z">
     </test> <!-- test2 -->
-    <test name="Smoke Test" duration-ms="125" started-at="2019-03-20T11:46:24Z" finished-at="2019-03-20T11:46:24Z">
-      <class name="unitTest.FirstTestCase">
-        <test-method status="FAIL" signature="firstTest()[pri:0, instance:unitTest.FirstTestCase@17c68925]" name="firstTest" duration-ms="74" started-at="2019-03-20T11:46:24Z" finished-at="2019-03-20T11:46:24Z">
-          <exception class="java.lang.NullPointerException">
+    <test name="test1" duration-ms="290" started-at="2019-03-20T14:19:33Z" finished-at="2019-03-20T14:19:33Z">
+      <class name="samples.SampleTest">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:samples.SampleTest@54d18072]" name="firstTest" duration-ms="124" started-at="2019-03-20T14:19:33Z" finished-at="2019-03-20T14:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="FAIL" signature="secondTest()[pri:0, instance:samples.SampleTest@54d18072]" name="secondTest" duration-ms="5" started-at="2019-03-20T14:19:33Z" finished-at="2019-03-20T14:19:33Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1] but found [2]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at unitTest.FirstTestCase.firstTest(FirstTestCase.java:39)
+              <![CDATA[java.lang.AssertionError: expected [1] but found [2]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at samples.SampleTest.secondTest(SampleTest.java:16)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -39,11 +55,11 @@ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:61
 at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-      </class> <!-- unitTest.FirstTestCase -->
-    </test> <!-- Smoke Test -->
+        </test-method> <!-- secondTest -->
+      </class> <!-- samples.SampleTest -->
+    </test> <!-- test1 -->
   </suite> <!-- Suite1 -->
 </testng-results>

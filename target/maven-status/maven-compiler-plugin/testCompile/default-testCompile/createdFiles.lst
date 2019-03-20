@@ -1,4 +1,5 @@
 samples\SampleTest.class
+samples\SecondTestFile.class
 listeners\AnnotationTransformer.class
 unitTest\FirstTestCase.class
 listeners\TestListener.class

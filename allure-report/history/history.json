@@ -1,0 +1,177 @@
+{
+  "9c5cfd35799a675f8d9cab89d61ef34" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d9f82604b26b3c9",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed",
+      "time" : {
+        "start" : 1553092403456,
+        "stop" : 1553092403457,
+        "duration" : 1
+      }
+    } ]
+  },
+  "ce8070c725a79d4ac6570f7c56b0a7da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d5813ac8e6d6391",
+      "status" : "skipped",
+      "statusDetails" : "Method SecondTestFile.skippedByDependencyTest()[pri:0, instance:samples.SecondTestFile@d8305c2] depends on not successfully finished methods",
+      "time" : {
+        "start" : 1553092403465,
+        "stop" : 1553092403465,
+        "duration" : 0
+      }
+    } ]
+  },
+  "401b7f45556a62e9e675c281c7610e8c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e43bb09981164487",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553092403402,
+        "stop" : 1553092403404,
+        "duration" : 2
+      }
+    } ]
+  },
+  "50c334a91cf1c020dd916cdfc33fe003" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbef2c2922707e9b",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [2]",
+      "time" : {
+        "start" : 1553092403360,
+        "stop" : 1553092403390,
+        "duration" : 30
+      }
+    } ]
+  },
+  "45d4f7b64479d453b0ec350fc203ee82" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe6529f654784281",
+      "status" : "failed",
+      "statusDetails" : "This test should be failed expected [3] but found [2]",
+      "time" : {
+        "start" : 1553092403416,
+        "stop" : 1553092403422,
+        "duration" : 6
+      }
+    } ]
+  },
+  "8594d90988eee4f86a8df35fd232619c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1812cb4f3517a891",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553092403432,
+        "stop" : 1553092403433,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9fd1e6bc3d8665e74f28c46fabe264fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "649efe843eb0eac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553092403443,
+        "stop" : 1553092403445,
+        "duration" : 2
+      }
+    } ]
+  },
+  "ec2968cfb67671b4bc99952918e7875" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fdfc625d4a07d06c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553092403160,
+        "stop" : 1553092403176,
+        "duration" : 16
+      }
+    } ]
+  },
+  "ff8fc02505327a59fdf823eee26ac095" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9936b71acc37a2db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1553088062128,
+        "stop" : 1553088073253,
+        "duration" : 11125
+      }
+    } ]
+  }
+}

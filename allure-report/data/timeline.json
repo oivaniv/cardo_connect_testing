@@ -1,0 +1,134 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WS00CS001",
+    "children" : [ {
+      "name" : "75724@WS00CS001.TestNG-tests-1(13)",
+      "children" : [ {
+        "name" : "example4",
+        "uid" : "2d9f82604b26b3c9",
+        "parentUid" : "a783c79e146f83e5566d57e9b5e2e265",
+        "status" : "failed",
+        "time" : {
+          "start" : 1553092403456,
+          "stop" : 1553092403457,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "skippedByDependencyTest",
+        "uid" : "d5813ac8e6d6391",
+        "parentUid" : "a783c79e146f83e5566d57e9b5e2e265",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1553092403465,
+          "stop" : 1553092403465,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "example2",
+        "uid" : "1812cb4f3517a891",
+        "parentUid" : "a783c79e146f83e5566d57e9b5e2e265",
+        "status" : "passed",
+        "time" : {
+          "start" : 1553092403432,
+          "stop" : 1553092403433,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "example3",
+        "uid" : "649efe843eb0eac",
+        "parentUid" : "a783c79e146f83e5566d57e9b5e2e265",
+        "status" : "passed",
+        "time" : {
+          "start" : 1553092403443,
+          "stop" : 1553092403445,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "firstTest",
+        "uid" : "fdfc625d4a07d06c",
+        "parentUid" : "a783c79e146f83e5566d57e9b5e2e265",
+        "status" : "passed",
+        "time" : {
+          "start" : 1553092403160,
+          "stop" : 1553092403176,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "secondTest",
+        "uid" : "dbef2c2922707e9b",
+        "parentUid" : "a783c79e146f83e5566d57e9b5e2e265",
+        "status" : "failed",
+        "time" : {
+          "start" : 1553092403360,
+          "stop" : 1553092403390,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "thirdTest",
+        "uid" : "e43bb09981164487",
+        "parentUid" : "a783c79e146f83e5566d57e9b5e2e265",
+        "status" : "passed",
+        "time" : {
+          "start" : 1553092403402,
+          "stop" : 1553092403404,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "example1",
+        "uid" : "fe6529f654784281",
+        "parentUid" : "a783c79e146f83e5566d57e9b5e2e265",
+        "status" : "failed",
+        "time" : {
+          "start" : 1553092403416,
+          "stop" : 1553092403422,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a783c79e146f83e5566d57e9b5e2e265"
+    }, {
+      "name" : "75744@WS00CS001.TestNG-tests-1(13)",
+      "children" : [ {
+        "name" : "Start and Stop FM Radio from FM page",
+        "uid" : "9936b71acc37a2db",
+        "parentUid" : "95e5bb173bc8afdeb5ab96c699c1cf9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1553088062128,
+          "stop" : 1553088073253,
+          "duration" : 11125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "95e5bb173bc8afdeb5ab96c699c1cf9b"
+    } ],
+    "uid" : "4479b70ba1793ded363de86b566f3406"
+  } ]
+}

@@ -1,22 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite1" verbose="2" parallel="tests">
-    
-    <listeners>
-        <listener class-name="listeners.TestListener"/>
-        <listener class-name="listeners.AnnotationTransformer"/>
-    </listeners>
-    
-    <test name="Smoke Test" >
+    <test name="test1">
+
         <classes>
-            <class name="unitTest.FirstTestCase"/>
+            <class name="samples.SampleTest"/>
+            <class name="samples.SecondTestFile"/>
         </classes>
 
-        <!--<groups>-->
-            <!--<run>-->
-                <!--<include name="smoke"/>-->
-            <!--</run>-->
-        <!--</groups>-->
     </test>
-    
 </suite>

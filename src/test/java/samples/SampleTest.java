@@ -5,18 +5,18 @@ import org.testng.annotations.Test;
 
 public class SampleTest {
 
-    @Test(groups = {"unit"})
+    @Test
     public void firstTest(){
         System.out.println("Unit");
     }
 
-    @Test(groups = {"web"})
+    @Test
     public void secondTest(){
         System.out.println("Web");
         Assert.assertEquals("2", "1");
     }
 
-    @Test (groups = {"db"})
+    @Test
     public void thirdTest(){
         System.out.println("DB");
     }
