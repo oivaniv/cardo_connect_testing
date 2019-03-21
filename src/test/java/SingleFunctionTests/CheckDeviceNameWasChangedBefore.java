@@ -20,6 +20,12 @@ public class CheckDeviceNameWasChangedBefore {
     public AndroidDriver<MobileElement> driver;
     public WebDriverWait wait;
 
+    int count = 0;
+    int passedCount = 0;
+    int failedCount = 0;
+    int deviceNameCounter = 0;
+    String deviceNameToSet = "Test ";
+
     @BeforeMethod
     public void setup() throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -35,46 +41,54 @@ public class CheckDeviceNameWasChangedBefore {
     }
 
     @Test
-    public void Conncetion() throws InterruptedException {
+    public void Connection() throws InterruptedException {
 
-        int count = 0;
-        int passedCount = 0;
-        int failedCount = 0;
+
         do {
             driver.launchApp();
+
+            getDeviceName();
 
             //Press Setting button
             wait.until(ExpectedConditions.visibilityOfElementLocated
                     (By.id("com.cardo.smartset:id/settings_icon"))).click();
+            //Open Device name page
+            wait.until(ExpectedConditions.visibilityOfElementLocated
+                    (By.id("com.cardo.smartset:id/device_info_container"))).click();
+            //Press Unit name container
+            wait.until(ExpectedConditions.visibilityOfElementLocated
+                    (By.id("com.cardo.smartset:id/device_name"))).sendKeys(deviceNameToSet + deviceNameCounter);
+            //Press Save button
+            wait.until(ExpectedConditions.visibilityOfElementLocated
+                    (By.id("com.cardo.smartset:id/material_design_toolbar_right_text_container"))).click();
+            //Close Unit name page
+            wait.until(ExpectedConditions.visibilityOfElementLocated
+                    (By.id("com.cardo.smartset:id/material_design_toolbar_left_icon"))).click();
+            //Close Settings page
+            wait.until(ExpectedConditions.visibilityOfElementLocated
+                    (By.id("com.cardo.smartset:id/material_design_toolbar_left_icon"))).click();
 
+            //Find element and get value
+            getDeviceName();
 
+            driver.closeApp();
+
+            driver.launchApp();
 
             //System.out.println("Connected");
             driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
             //System.out.println("Added timeout");
 
-            //Find element and get value
-            AndroidElement element = (AndroidElement) driver.findElement(By.id("com.cardo.smartset:id/device_name_connected"));
-            String deviceName = element.getAttribute("text");
-
-            //Check is value is set
-            System.out.println(deviceName);
-
-            if (deviceName.equals("FREECOM4+")) {
-                System.out.println("Test passed");
-                passedCount++;
-            } else {
-                System.out.println("Test failed");
-                failedCount++;
-            }
+            getDeviceNameAppReopened();
 
             driver.closeApp();
             //System.out.println("App is closed");
             count++;
+            deviceNameCounter++;
             System.out.println("Total count is: " + count);
 
         }
-        while (count < 100);
+        while (count < 50);
 
         System.out.println("Passed test: " + passedCount + "\nFailed tests: " + failedCount);
     }
@@ -82,5 +96,29 @@ public class CheckDeviceNameWasChangedBefore {
     @AfterTest
     public void teardown() {
         driver.quit();
+    }
+
+    public void getDeviceName() {
+        //Find element and get value
+        AndroidElement element = (AndroidElement) driver.findElement(By.id("com.cardo.smartset:id/device_name_connected"));
+        String deviceName = element.getAttribute("text");
+        //Check is value is set
+        System.out.println(deviceName);
+    }
+
+    public void getDeviceNameAppReopened() {
+        //Find element and get value
+        AndroidElement element = (AndroidElement) driver.findElement(By.id("com.cardo.smartset:id/device_name_connected"));
+        String deviceNameAppReopebed = element.getAttribute("text");
+        //Check is value is set
+        System.out.println(deviceNameAppReopebed);
+        if (deviceNameAppReopebed.equals(deviceNameToSet + deviceNameCounter)) {
+            System.out.println("Test passed");
+            passedCount++;
+        } else {
+            System.out.println("Test failed");
+            failedCount++;
+        }
+
     }
 }

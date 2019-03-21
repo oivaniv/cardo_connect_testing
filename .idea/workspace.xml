@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02c2d3f5-7e6e-4a34-a591-061f924947c2" name="Default Changelist" comment="Added TC for battery level verification">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceNameWasChangedBefore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceNameWasChangedBefore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceNameWasChangedBefore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceRidersTC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceRidersTC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SingleFunctionTests/CheckDeviceNameWasChangedBefore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SingleFunctionTests/CheckDeviceNameWasChangedBefore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SingleFunctionTests/CheckDeviceRidersTC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SingleFunctionTests/CheckDeviceRidersTC.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,17 +21,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
+            <state relative-caret-position="884">
               <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceNameTC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1255">
-              <caret line="81" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="81" selection-end-column="5" />
+            <state relative-caret-position="365">
+              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2835#2836#0" expanded="true" />
@@ -38,15 +41,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceNameWasChangedBefore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state relative-caret-position="-493">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2166#2167#0" expanded="true" />
-                <element signature="e#2195#2196#0" expanded="true" />
+                <element signature="e#2904#2905#0" expanded="true" />
+                <element signature="e#2933#2934#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceRidersTC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="884">
+              <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -83,6 +86,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>/n</find>
+      <find>FREE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -106,12 +110,12 @@
         <option value="$PROJECT_DIR$/src/test/java/SingleFunctionTests/ShowstopperTestCase.java" />
         <option value="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckBatteryStatusTC.java" />
         <option value="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckBatteruLevelTC.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceNameTC.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceRidersTC.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceNameWasChangedBefore.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceRidersTC.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceNameTC.java" />
       </list>
     </option>
   </component>
@@ -138,7 +142,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -151,7 +155,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,10 +205,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553095762176" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553183117485" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -220,13 +224,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CheckDeviceNameWasChangedBefore">
-    <configuration name="CheckDeviceNameTC.ConnectionIssueTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CheckDeviceNameTC">
+    <configuration name="CheckDeviceNameTC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ioappium" />
-      <option name="PACKAGE_NAME" value="" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingleFunctionTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SingleFunctionTests" />
       <option name="MAIN_CLASS_NAME" value="SingleFunctionTests.CheckDeviceNameTC" />
-      <option name="METHOD_NAME" value="ConnectionIssueTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -292,18 +301,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.CheckDeviceRidersTC" />
-      <item itemvalue="TestNG.CheckDeviceNameTC.ConnectionIssueTest" />
       <item itemvalue="TestNG.TestClass" />
       <item itemvalue="TestNG.TestClass.checkBatteryLife" />
       <item itemvalue="TestNG.CheckDeviceNameWasChangedBefore" />
+      <item itemvalue="TestNG.CheckDeviceNameTC" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CheckDeviceNameWasChangedBefore" />
+        <item itemvalue="TestNG.CheckDeviceNameTC" />
         <item itemvalue="TestNG.CheckDeviceRidersTC" />
+        <item itemvalue="TestNG.CheckDeviceNameWasChangedBefore" />
         <item itemvalue="TestNG.TestClass" />
         <item itemvalue="TestNG.TestClass.checkBatteryLife" />
-        <item itemvalue="TestNG.CheckDeviceNameTC.ConnectionIssueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -329,35 +338,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckDeviceNameTC_ConnectionIssueTest - 2019.03.19 at 16h 59m 35s.xml">
-      <configuration name="CheckDeviceNameTC.ConnectionIssueTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass_checkBatteryLife - 2019.03.19 at 17h 00m 12s.xml">
-      <configuration name="TestClass.checkBatteryLife" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass - 2019.03.19 at 17h 02m 07s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass - 2019.03.19 at 17h 07m 34s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass - 2019.03.19 at 17h 11m 55s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass - 2019.03.19 at 17h 21m 24s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass - 2019.03.19 at 17h 37m 10s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass - 2019.03.19 at 17h 51m 50s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CheckDeviceRidersTC - 2019.03.19 at 18h 30m 38s.xml">
-      <configuration name="CheckDeviceRidersTC" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CheckDeviceNameWasChangedBefore - 2019.03.20 at 17h 07m 34s.xml">
       <configuration name="CheckDeviceNameWasChangedBefore" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckDeviceNameWasChangedBefore - 2019.03.21 at 11h 06m 42s.xml">
+      <configuration name="CheckDeviceNameWasChangedBefore" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckDeviceNameWasChangedBefore - 2019.03.21 at 11h 18m 14s.xml">
+      <configuration name="CheckDeviceNameWasChangedBefore" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckDeviceNameWasChangedBefore - 2019.03.21 at 11h 20m 50s.xml">
+      <configuration name="CheckDeviceNameWasChangedBefore" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckDeviceNameWasChangedBefore - 2019.03.21 at 11h 53m 22s.xml">
+      <configuration name="CheckDeviceNameWasChangedBefore" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckDeviceRidersTC - 2019.03.21 at 14h 00m 05s.xml">
+      <configuration name="CheckDeviceRidersTC" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckDeviceNameTC - 2019.03.21 at 14h 09m 55s.xml">
+      <configuration name="CheckDeviceNameTC" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckDeviceNameTC - 2019.03.21 at 15h 46m 58s.xml">
+      <configuration name="CheckDeviceNameTC" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckDeviceNameTC - 2019.03.21 at 15h 59m 46s.xml">
+      <configuration name="CheckDeviceNameTC" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CheckDeviceNameTC - 2019.03.21 at 16h 16m 30s.xml">
+      <configuration name="CheckDeviceNameTC" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -373,7 +382,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18176973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -382,7 +391,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3109426" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3109426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,6 +503,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -501,40 +517,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceNameWasChangedBefore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceNameTC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1255">
-          <caret line="81" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="81" selection-end-column="5" />
+        <state relative-caret-position="-493">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2835#2836#0" expanded="true" />
-            <element signature="e#2864#2865#0" expanded="true" />
+            <element signature="e#2904#2905#0" expanded="true" />
+            <element signature="e#2933#2934#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceRidersTC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="884">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceNameWasChangedBefore.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SingleFunctionTests/CheckDeviceNameTC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        <state relative-caret-position="365">
+          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2166#2167#0" expanded="true" />
-            <element signature="e#2195#2196#0" expanded="true" />
+            <element signature="e#2835#2836#0" expanded="true" />
+            <element signature="e#2864#2865#0" expanded="true" />
           </folding>
         </state>
       </provider>
